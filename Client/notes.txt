@@ -1,0 +1,19 @@
+to run the client
+
+$ npm start 
+
+
+- components
+-App.js
+-- CardContainer.js // it contains all the others and is called by App.js
+---- NavBar.js
+------ BrowseButton.js
+------ BrowseButton.js
+---- CardTitle.js
+---- CardImage.js
+---- CardDescription.js
+---- CardPrice.js
+---- CardButton.js
+---- Comments
+
+touch CardContainer.js CardTitle.js CardImage.js CardDescription.js CardPrice.js CardButton.js

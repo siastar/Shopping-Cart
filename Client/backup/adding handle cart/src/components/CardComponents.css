@@ -1,0 +1,125 @@
+.navbar{
+    color: white;
+    background-color: black;
+    /* max-width: 500px; */
+    /* margin: auto; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* font-family: arial; */
+    /* padding: 5px; */
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+}
+
+.cardcontainer {
+    background-color: grey;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    padding: 10px;
+}
+
+.browsebuttons {
+    background-color: green;
+    height:40px;
+    width:80px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+    padding: 15px;
+}
+
+.description {
+    background-color: silver;
+    text-align: justify;
+    text-justify: inter-word;
+    display: flex;
+    padding: 15px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+.imgdiv {
+    display: flex;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: yellow;
+    padding: 15px;
+
+}
+
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 10px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+.shoppingpanel{
+
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #4CAF50; /* Green */
+    padding: 15px;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.basket {
+
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: white; 
+    padding: 3px;
+    border: none;
+    color: blue;
+    text-align: center;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.accordiondata {
+
+    background-color: red; 
+    border: 1px solid black;
+    color: white;
+    padding: 3px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.accordionbuttons{
+
+ background-color: red; 
+    border: 1px solid black;
+    color: white;
+    padding: 3px 3px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+   
+}
+
+
+    

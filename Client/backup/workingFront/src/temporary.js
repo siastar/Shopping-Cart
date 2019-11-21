@@ -1,0 +1,112 @@
+/////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+///////////////  LOOK FOR ITEM'S INDEX IN ARRAY  ////////////////////////
+/////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
+
+
+// const archive =[
+
+//     {id: 1,
+//      value:'test value 1'        
+//     },
+//     {id: 2,
+//      value:'test value 2'        
+//     },
+//     {id: 3,
+//      value:'test value 3'        
+//     },
+//     {id: 4,
+//      value:'test value 4'        
+//     },
+//     {id: 5,
+//      value:'test value 5'        
+//     },
+//     {id: 6,
+//      value:'test value 6'        
+//     },
+// ]
+
+// console.log(archive);
+
+// let termOfSearch = 3;
+
+// let pos = archive.map(function(e) { return e.id; }).indexOf(termOfSearch);
+
+// console.log('the index you are looking for is: ', pos);
+
+/////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+////////////CHECK IF LAST IN OBJECT IS ALREADY PRESENT IN ARRAY//////////
+/////////////////////////////////////////////////////////////////////////
+//////////////IF IS PRESENT IT REMOVE IT FROM THE ARRAY AND//////////////
+/////////////////////////////////////////////////////////////////////////
+//////////////INCREASES THE ALREADY PRESENT QUANTITY PROP////////////////
+/////////////////////////////////////////////////////////////////////////
+//////   ( it searches by oject id and ignores everything else)    //////
+/////////////////////////////////////////////////////////////////////////
+////     in this snippet different objects with same id are   ///////////
+////              considered as equals object                 ///////////
+/////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
+// const list = [
+//     {id:1, p:'first', qt:1},
+//     {id:2, p:'bb', qt:1},
+//     {id:3, p:'cc', qt:1},
+//     {id:4, p:'dd', qt:12},
+//     {id:5, p:'ee', qt:1},
+//     {id:4, p:'last', qt:1}
+// ];
+
+// if (list.length > 1){
+    
+// console.clear();
+// console.log('full list: ', list);
+// let lastIn = list[list.length - 1];
+// console.log('last in: ' , lastIn, ' last in id: ', lastIn.id);
+
+//  // console.log('last entry: ' , list[lastIn]);
+//  // console.log('last entry id: ' , list[lastIn].id)
+
+// //console.log('test:', list[2].id);
+
+// for (let i=list.length-2; i>=0; i--){
+//     console.log('array index: ', i , ' ---  obj id: ' , list[i].id)
+//     if(lastIn.id === list[i].id){
+//         console.log('Eureka!');
+//         list[i].qt ++
+//     }
+// }
+
+// console.log('list: ' , list);
+
+// list.pop();
+
+// console.log('list popped: \n' , list);
+
+// }
+
+// else {
+//     console.log('list after process: \n' , list);
+// }
+
+/////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+///////////////             IN OPERATOR          ////////////////////////
+/////////////////////////////////////////////////////////////////////////
+/////////////////////////////////////////////////////////////////////////
+
+var car = {make: 'Honda', model: 'Accord', year: 1998};
+
+console.log('make' in car);
+// expected output: true
+
+delete car.make;
+if ('make' in car === false) {
+  car.make = 'Suzuki';
+}
+
+console.log(car.make);
+// expected output: "Suzuki"

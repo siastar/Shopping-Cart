@@ -1,0 +1,26 @@
+
+<div
+        className='card'>
+      <h1>TITLE</h1>
+      <p> image </p>
+      <p> description </p>
+      <p className='price'> price </p>
+      <p className='card button'> add to cart </p>
+    </div>
+
+
+
+- components
+-App.js
+-- CardContainer.js // it contains all the others and is called by App.js
+---- NavBar.js
+------ BrowseButton.js
+------ BrowseButton.js
+---- CardTitle.js
+---- CardImage.js
+---- CardDescription.js
+---- CardPrice.js
+---- CardButton.js
+---- Comments
+
+touch CardContainer.js CardTitle.js CardImage.js CardDescription.js CardPrice.js CardButton.js
